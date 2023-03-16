@@ -1,0 +1,25 @@
+body {background-color: #FFF8DC;
+color: #191970;
+font-family: "Courier New", "Times New Roman", sans-serif;}
+#container {width: 80%;
+			margin-left: auto;
+			margin-right: auto;}
+img {border-radius: 20px;}
+h1 {color: #00ff00;
+font-family: "Times New Roman", Geogria, sans-serif;
+text-transform: uppercase;
+box-shadow: 10px 10px 10px #000000;
+text-align: center;}
+h2 {color: #009999;
+font-family: "Times New Roman", Geogria, sans-serif;
+text-align: center;}
+ul {text-transform: capitalize;
+font-weight: bold;}
+li {font-family: "Times New Roman",Geogria, sans-serif;}
+ol {background-image: url(frenchtoast1.jpg); 
+		background-position: right top;
+		background-repeat: no-repeat;
+		background-size: 20% 100%;
+		line-height: 2;}
+p {text-indent: 5em;
+color: #8b0000;}
