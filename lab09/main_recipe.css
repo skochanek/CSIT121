@@ -1,0 +1,115 @@
+body {background-color: #FFF8DC;
+color: #191970;
+font-family: "Courier New", "Times New Roman", sans-serif;}
+#container {width: 80%;
+			margin-left: auto;
+			margin-right: auto;}
+img {border-radius: 20px;}
+h1 {color: #00ff00;
+font-family: "Times New Roman", Geogria, sans-serif;
+text-transform: uppercase;
+box-shadow: 10px 10px 10px #000000;
+text-align: center;}
+h2 {color: #009999;
+font-family: "Times New Roman", Geogria, sans-serif;
+text-align: center;}
+ul {text-transform: capitalize;
+font-weight: bold;}
+li {font-family: "Times New Roman",Geogria, sans-serif;}
+ul { background-image: url(frenchtoast1.jpg); 
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
+		line-height: 2;}
+ol {line-height: 2;}		
+		
+p { text-indent: 5em;
+color: #8b0000;}
+@media (max-width: 768px) {
+	header {box-shadow: none;}
+	nav {text-align: center;}
+	aside {font-size: 2em}
+}
+}
+body {
+  font-size: small;
+  line-height: 1.4;
+}
+p {
+  margin: 0;
+}
+.performance-facts {
+  border: 1px solid black;
+  margin: 20px;
+  float: left;
+  width: 280px;
+  padding: 0.5rem;
+  table {
+    border-collapse: collapse;
+  }
+}
+.performance-facts__title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 0 0.25rem 0;
+}
+.performance-facts__header {
+  border-bottom: 10px solid black;
+  padding: 0 0 0.25rem 0;
+  margin: 0 0 0.5rem 0;
+  p {
+    margin: 0;
+  }
+}
+.performance-facts__table {
+  width: 100%;
+  thead tr 
+    th,
+    td 
+      border: 0;
+    }
+  
+  th,
+  td {
+    font-weight: normal;
+    text-align: left;
+    padding: 0.25rem 0;
+    border-top: 1px solid black;
+    white-space: nowrap;
+  
+  td 
+    &:last-child 
+      text-align: right;
+    }
+  
+  .blank-cell {
+    width: 1rem;
+    border-top: 0;
+  }
+  .thick-row {
+    th,
+    td 
+      border-top-width: 5px;
+    }
+
+.small-info {
+  font-size: 0.7rem;
+}
+.text-center {
+  text-align: center;
+}
+.thick-end {
+  border-bottom: 10px solid black;
+}
+.thin-end {
+  border-bottom: 1px solid black;
+}
+label {display: inline-block;
+  padding:6px;
+  text-align: left;
+font-weight: bold;
+color: #8b0000;}
+form {font-family: "Courier New", "Times New Roman", sans-serif;} 
+input[type="reset"] { width: 10em; border-radius: 1em }
+input[type="submit"] { width: 10em; border-radius: 1em;
+float: right;}
